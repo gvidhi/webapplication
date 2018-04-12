@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Home Page</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="">
+	</head>
+	<body>
+		<div class="jumbotron">
+		<div class="container">		
+			<form class="form-inline" action="show.jsp" method="GET">
+				<label class="mr-sm-2" for="inlineFormCustomSelect">Preference</label>
+					  <select class="form-control custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+					    <option selected>Choose...</option>
+					    <option value="1">First Name</option>
+					    <option value="2">Last Name</option>
+					    <option value="3">Cited By</option>
+					    <option value="4">Book Name</option>
+					    <option value="5">Paper Name</option>
+					  </select>
+					  <input type="text" class="form-control" name="searchfield" placeholder="Search">
+				  <div class="form-group">
+					    <label for="Fromyear">From Year</label>
+					    <input type="date" class="form-control" id="Fromyear" placeholder="From Year">
+				  </div>
+				  <div class="form-group">
+					    <label for="Toyear">To Year</label>
+					    <input type="date" class="form-control" id="Toyear" placeholder="To Year">
+				  </div>
+				  <button type="submit" class="btn btn-primary">Search</button>
+			</form>
+		</div>
+	</div>
+	</body>
+</html>
